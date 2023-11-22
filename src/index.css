@@ -35,3 +35,11 @@ p {
 .new {
   display: none;
 }
+
+.red{
+  border: 4px solid red;
+}
+
+.italic{
+  font-style: italic;
+}
