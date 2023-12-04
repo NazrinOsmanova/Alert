@@ -22,7 +22,7 @@ const CustomButton = (e) => {
         <div className='customButton'>
             <p>Hello World</p>
             <button onClick={text}>Text</button>
-            <button onClick={warnMessage} onMouseOut={warnMessage2}>Warn Message</button>
+            <button className='warn' onClick={warnMessage} onMouseOut={warnMessage2}>Warn Message</button>
             <button onMouseOver={hint} onMouseOut={hint2}>Hint</button>
         </div>
     )
